@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 # In-memory task storage
 tasks = []
-
+#new task added
 @app.route("/")
 def index():
     return render_template("index.html", tasks=tasks)
